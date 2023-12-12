@@ -12,7 +12,7 @@ public class Encapsuation {
 
 	public void setName(String name) {
 		this.name = name;
-		System.out.println(name);
+		//System.out.println(name);
 	}
 
 	public int getAge() {
@@ -21,15 +21,15 @@ public class Encapsuation {
 
 	public void setAge(int age) {
 		this.age = age;
-		System.out.println(age);
+	//	System.out.println(age);
 	}
 
 	public static void main(String[] args) {
 		Encapsuation e = new Encapsuation();
 		e.setAge(20);  // always call setter method bcoz it contains arguments
 		e.setName("sanjay");
-		
-		
+		System.out.println(e.getName());
+		System.out.println(e.getName());
 		
 	}
 }
